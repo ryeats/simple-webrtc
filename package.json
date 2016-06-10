@@ -1,18 +1,18 @@
 {
   "name": "simple-webrtc",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A simple but practical example of data channels with a signal server.",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Ryan Yeats",
+  "license": "MIT",
   "dependencies": {
     "browserify-middleware": "^7.0.0",
+    "console-log-div": "^0.6.3",
     "express": "^4.13.4",
     "signalhub": "^4.5.1",
-    "webrtc-swarm": "^2.4.0",
-    "wrtc": "0.0.60"
+    "webrtc-swarm": "^2.4.0"
   }
 }
